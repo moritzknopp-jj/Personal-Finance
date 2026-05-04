@@ -36,11 +36,7 @@
       "package.json",
       "next.config.mjs"
     ],
-    "asar": true,
-    "asarUnpack": [
-      "node_modules/node-cron/**/*",
-      "node_modules/next/dist/compiled/**/*"
-    ],
+    "asar": false,
     "linux": {
       "target": [
         { "target": "AppImage", "arch": ["x64"] },
