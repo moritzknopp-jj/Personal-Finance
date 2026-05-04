@@ -38,3 +38,6 @@ next-env.d.ts
 # chaos killer runtime data
 /data/schedule-config.json
 /data/deletion-log.jsonl
+
+# electron build output
+/dist-electron/
